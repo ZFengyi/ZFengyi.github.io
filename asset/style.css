@@ -1,0 +1,215 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  background-color: transparent;
+  border: transparent;
+}
+
+.cover{
+  font-size:40px;
+  font-weight: bold;
+}
+
+.category{
+  font-size:35px;
+  font-weight: bold;
+  color: #0D365A;
+  margin-bottom: 20px;
+  font-family: "Alfarn";
+}
+.smallcover{
+  font-size:17px;
+  color: grey;
+  text-shadow: none;
+}
+#topnav {
+  background-color: orange;
+}
+
+.dropdown-content {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    min-width: 160px;
+    z-index: -1;
+    transform: translateY(-2em);
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+.dropdown:hover .nav-link {
+  opacity: 0.8;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-center{
+  color: white;
+  margin: auto;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.first-slide{
+  background-color: orange;
+}
+
+.second-slide{
+  background-color: orange;
+}
+
+.third-slide{
+  background-color: orange;
+}
+/* CUSTOMIZE THE portf
+-------------------------------------------------- */
+
+/* portf base class */
+.portf {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.portf-caption {
+  bottom: 3rem;
+}
+
+#mycaption{
+  padding-bottom: 20rem;
+}
+/* Declare heights because of positioning of img element */
+.portf-item {
+  height: 52rem;
+  background-color: #777;
+}
+.portf-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 52rem;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the portf */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 92%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.hcontainer:hover .overlay1 {
+  opacity: 0.9;
+}
+
+.text1 {
+  width: 80%;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 25px;
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text2 {
+  margin-top: 10px;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of portf content */
+  .portf-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
