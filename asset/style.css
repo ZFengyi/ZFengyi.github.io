@@ -37,6 +37,13 @@ button{
 #topnav {
   background-color: orange;
 }
+#topnav-project {
+  color: orange;
+  background-color: white;
+}
+.nav-project{
+  color: #85bfc6;
+}
 
 .dropdown-content {
     visibility: hidden;
@@ -56,6 +63,7 @@ button{
   transition-delay: 0s, 0s, 0.3s;
 }
 
+.
 .dropdown:hover .nav-link {
   opacity: 0.8;
 }
@@ -100,7 +108,7 @@ button{
 /* Declare heights because of positioning of img element */
 .portf-item {
   height: 52rem;
-  background-color: #777;
+  background-color: #f3e8a8;
 }
 .portf-item > img {
   position: absolute;
@@ -126,6 +134,23 @@ button{
   margin-left: .75rem;
 }
 
+.project{
+  height: 32rem;
+}
+
+.project-inner{
+  height:32rem;
+}
+
+.projectcover{
+  color: #ef6b00;
+  font-size:50px;
+}
+
+#video{
+  margin:auto;
+  height:530px;
+}
 
 .image {
   display: block;
@@ -190,6 +215,43 @@ button{
   line-height: 1;
   letter-spacing: -.05rem;
 }
+/* Form
+------------------------- */
+#contactp{
+  text-align: center;
+  padding-top: 10rem;
+
+}
+
+#contactt{
+  margin-bottom: 5rem;
+  font-size: 35px;
+}
+
+.contact-form{
+  padding-right: 25rem;
+  margin-bottom: 10rem;
+}
+
+.ipbox{
+  margin-left: 60%;
+  margin-bottom: 2rem;
+  display: block;
+  background-color: #ffffff;
+  border-color: #DDDDEC;
+  border-width: 1px;
+  border-radius: 3px;
+  height: 42px;
+}
+
+.submit-button {
+
+    margin-left: 55%;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    width: 15rem;
+  }
 
 
 /* RESPONSIVE CSS

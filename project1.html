@@ -17,15 +17,15 @@
     <header>
       <nav id="topnav" class="navbar navbar-expand-md fixed-top" >
         <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Contact</a>
-        <a class="nav-center" href="#">Fengyi Zhang</a>
+        <a class="nav-link" href="Contact.html">Contact</a>
+        <a class="nav-center" href="index.html">Fengyi Zhang</a>
         <a class="nav-link"></a>
         <div class="dropdown">
-          <button class="nav-link">Project</button>
+          <button class="nav-link" class="chosen">Project</button>
           <div class="dropdown-content">
-            <a class="nav-link" href="#ux">UX</a>
-            <a class="nav-link" href="#AI">AI</a>
-            <a class="nav-link" href="#feat">Featuring</a>
+            <a class="nav-link" href="index.html#ux">UX</a>
+            <a class="nav-link" href="index.html#AI">AI</a>
+            <a class="nav-link" href="index.html#feat">Featuring</a>
           </div>
         </div>
       </nav>
@@ -33,115 +33,27 @@
 
     <main role="main">
 
-      <div id="myportf" class="portf slide" data-ride="portf">
-        <ol class="portf-indicators">
-          <li data-target="#myportf" data-slide-to="0" class="active"></li>
-          <li data-target="#myportf" data-slide-to="1"></li>
-          <li data-target="#myportf" data-slide-to="2"></li>
-        </ol>
-        <div class="portf-inner">
-          <div class="portf-item active">
-            <img class="first-slide" alt="First slide">
+      <div id="myproject" class="portf slide" data-ride="portf">
+        <div class="project-inner">
+          <div class="project-inner portf-item active">
+            <img id="myproject" alt="First slide">
             <div class="container">
-              <div class="portf-caption" id="mycaption">
-                <h1 class="cover">Hi, I'm Fengyi Zhang!</h1>
+              <div class="portf-caption" >
+                <h1 class="projectcover">San Juan Island Display</h1>
                 <p></p>
-                <p class="smallcover">a Human Computer Interaction and Cognitive Science Junior at Carnegie Mellon</p>
-              </div>
-            </div>
-          </div>
-          <div class="portf-item">
-            <img class="third-slide" alt="Third slide">
-            <div class="container">
-              <div class="portf-caption text-left" id="mycaption" >
-                <h1 class="cover">Data Display @San Juan Islands</h1>
-                <p class="smallcover">My most Recent work of designing a screen for a transportation Hub.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="portf-item">
-            <img class="second-slide" alt="Second slide">
-            <div class="container">
-              <div class="portf-caption text-right" id="mycaption" >
-                <h1 class="cover">Interested in my work?</h1>
-                <p class="smallcover">I am an ambitious UX designer and researcher, looking for 2019 summer internship.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Click to Say Hi</a></p>
+                <p class="smallcover">Team of three: Fengyi Zhang, Hamza Qureshi, Zoe Lin</p>
+                <p class="smallcover">A Big Screen for San Juan Islands Hub (Plane + Train + Ferry Station).</p>
               </div>
             </div>
           </div>
         </div>
-        <a class="portf-control-prev" href="#myportf" role="button" data-slide="prev">
-          <span class="portf-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="portf-control-next" href="#myportf" role="button" data-slide="next">
-          <span class="portf-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-
       <div class="container marketing">
 
         <!-- Three columns of text below the portf -->
-        <h1 class="category" id="feat">Featuring Projects</h1>
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="asset/image/airport.png" alt="airport" width="420" height="300">
-            <h2>San Juan Island</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-6">
-            <img src="asset/image/recycle.png" alt="recycle" width="420" height="300">
-            <h2>Recycling@CMU</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette" id="ux">
-          <div class="col-md-4">
-            <h2 class="featurette-heading">User Experience</h2>
-            <p class="lead">My recent work in UX.</p>
-          </div>
-          <div class="col-md-4 hcontainer" >
-            <img class="img-fluid mx-auto image" src="asset/image/bun.png" alt="recycle">
-            <div class="overlay1">
-            s  <div class="nav-center text1">Online Bakery</div>
-              <div class="nav-link text2">HTML, CSS, JS, Invision</div>
-            </div>
-          </div>
-           <div class="col-md-4">
-            <img class="img-fluid mx-auto" src="asset/image/recycle.png" alt="recycle">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette" id="AI">
-          <div class="col-md-4">
-            <h2 class="featurette-heading"><span class="text-muted">AI Interaction</span></h2>
-            <p class="lead">My coding work in Human-AI Interaction.</p>
-          </div>
-          <div class="col-md-4">
-            <img class="img-fluid mx-auto" src="asset/image/recycle.png" alt="recycle">
-          </div>
-           <div class="col-md-4">
-            <img class="img-fluid mx-auto" src="asset/image/recycle.png" alt="recycle">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
-
-      </div><!-- /.container -->
+        <iframe class="col-lg-12 " id="video" src="https://www.youtube.com/embed/ZnXTse_l1I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+       
 
 
       <!-- FOOTER -->
